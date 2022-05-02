@@ -1,0 +1,30 @@
+{
+  "name": "test-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vedabahu/test-site.git"
+  },
+  "author": "Vedabahu",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Vedabahu/test-site/issues"
+  },
+  "homepage": "https://github.com/Vedabahu/test-site#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+  },
+  "keywords": [
+    "test-site"
+  ],
+  "description": "",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "optionalDependencies": {
+    "onchange": "^7.1.0"
+  }
+}
